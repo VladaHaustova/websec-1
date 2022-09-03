@@ -1,0 +1,30 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="container__items">
+            <input type="number" id="input1" class="input_container styles">
+
+            <select id="option" class="options styles">
+                <option value="1">+</option>
+                <option value="2">-</option>
+                <option value="3">*</option>
+                <option value="4">/</option>
+            </select>
+
+            <input type="number" id="input2" class="input_container styles">
+        </div>
+        <br>
+        <button class="result styles" onclick="calculate()">Подсчитать</button>
+        <div><textarea id="result" class="container__results styles"></textarea></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+
+</html>
